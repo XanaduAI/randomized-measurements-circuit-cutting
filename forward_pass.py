@@ -1,8 +1,7 @@
 import pennylane as qml
 from pennylane import numpy as np
 from timeit import default_timer as timer
-from datetime import datetime
-from datetime import timedelta
+from datetime import datetime, timedelta
 
 from utils import clustered_chain_graph, get_qaoa_circuit
 import sys

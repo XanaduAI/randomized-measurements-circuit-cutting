@@ -10,7 +10,6 @@ from datetime import datetime, timedelta
 from utils import clustered_chain_graph, get_qaoa_circuit
 
 from ray import train
-import scipy
 
 ########################################################################
 # Execution env setup
