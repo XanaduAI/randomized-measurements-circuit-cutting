@@ -1,0 +1,32 @@
+
+Problem graph with 3 clusters of 25 nodes and 2 vertex separators
+
+Number of layers = 1
+Nodes in the Ray cluster:
+[{'NodeID': '103c6e64b7c9c79265d1f0c5dc71c9fc8431dbbcde3e70bf5cb9f14f', 'Alive': True, 'NodeManagerAddress': '10.249.8.21', 'NodeManagerHostname': 'nid001597', 'NodeManagerPort': 41909, 'ObjectManagerPort': 33263, 'ObjectStoreSocketName': '/tmp/ray/session_2022-06-16_13-47-01_272031_101178/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2022-06-16_13-47-01_272031_101178/sockets/raylet', 'MetricsExportPort': 64960, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'CPU': 5.0, 'object_store_memory': 77470456627.0, 'GPU': 4.0, 'memory': 170764398797.0, 'node:10.249.8.21': 1.0}}]
+
+cluster resources: {'CPU': 5.0, 'accelerator_type:A100': 1.0, 'memory': 170764398797.0, 'GPU': 4.0, 'object_store_memory': 77470456627.0, 'node:10.249.8.21': 1.0}
+
+resources: {'node:10.249.8.21': 1.0, 'GPU': 4.0, 'CPU': 5.0, 'accelerator_type:A100': 1.0, 'memory': 170764398797.0, 'object_store_memory': 77470456627.0}
+
+Simulating 29 qubits for largest fragment
+
+Total number of qubits = 79
+
+Depth of full (uncut) circuit = 67
+
+resources: {'memory': 170764398797.0, 'node:10.249.8.21': 1.0, 'GPU': 4.0, 'accelerator_type:A100': 1.0, 'CPU': 5.0, 'object_store_memory': 77470456627.0}
+
+Total number of frag tapes = 169
+
+Circuit cutting time: 0:00:07.341887
+
+Depth of largest fragment = 50
+
+Depth of deepest tape = 50
+
+Ray run time: 0:11:01.628099
+
+Postprocessing time: 0:00:00.214080
+
+Simulated cost value = 0.0009834503685034331

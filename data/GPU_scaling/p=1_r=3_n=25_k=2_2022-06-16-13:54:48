@@ -1,0 +1,32 @@
+
+Problem graph with 3 clusters of 25 nodes and 2 vertex separators
+
+Number of layers = 1
+Nodes in the Ray cluster:
+[{'NodeID': '10f1c502a92bc09e2d663b6e225762eab54d719abe2c90e81943dbd4', 'Alive': True, 'NodeManagerAddress': '10.249.27.226', 'NodeManagerHostname': 'nid004064', 'NodeManagerPort': 45037, 'ObjectManagerPort': 35163, 'ObjectStoreSocketName': '/tmp/ray/session_2022-06-16_13-54-30_475057_8337/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2022-06-16_13-54-30_475057_8337/sockets/raylet', 'MetricsExportPort': 64867, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'GPU': 4.0, 'memory': 180376905319.0, 'object_store_memory': 77304387993.0, 'CPU': 4.0, 'node:10.249.27.226': 1.0}}, {'NodeID': 'b7981a88735a2f9d173368ebc16dab2f53ab1201ce46fc77fcb92f51', 'Alive': True, 'NodeManagerAddress': '10.249.18.143', 'NodeManagerHostname': 'nid002897', 'NodeManagerPort': 35571, 'ObjectManagerPort': 38751, 'ObjectStoreSocketName': '/tmp/ray/session_2022-06-16_13-54-30_475057_8337/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2022-06-16_13-54-30_475057_8337/sockets/raylet', 'MetricsExportPort': 64313, 'alive': True, 'Resources': {'object_store_memory': 77749690368.0, 'memory': 171415944192.0, 'GPU': 4.0, 'node:10.249.18.143': 1.0, 'accelerator_type:A100': 1.0, 'CPU': 5.0}}]
+
+cluster resources: {'memory': 351792849511.0, 'node:10.249.27.226': 1.0, 'object_store_memory': 155054078361.0, 'GPU': 8.0, 'CPU': 9.0, 'accelerator_type:A100': 2.0, 'node:10.249.18.143': 1.0}
+
+resources: {'accelerator_type:A100': 2.0, 'memory': 351792849511.0, 'object_store_memory': 155054078361.0, 'node:10.249.27.226': 1.0, 'CPU': 9.0, 'GPU': 8.0, 'node:10.249.18.143': 1.0}
+
+Simulating 29 qubits for largest fragment
+
+Total number of qubits = 79
+
+Depth of full (uncut) circuit = 67
+
+resources: {'accelerator_type:A100': 2.0, 'GPU': 8.0, 'object_store_memory': 155054078361.0, 'node:10.249.27.226': 1.0, 'memory': 351792849511.0, 'CPU': 9.0, 'node:10.249.18.143': 1.0}
+
+Total number of frag tapes = 169
+
+Circuit cutting time: 0:00:07.518702
+
+Depth of largest fragment = 50
+
+Depth of deepest tape = 50
+
+Ray run time: 0:05:47.172883
+
+Postprocessing time: 0:00:00.215836
+
+Simulated cost value = 0.0009834503685034331

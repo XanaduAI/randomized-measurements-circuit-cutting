@@ -1,0 +1,815 @@
+
+Problem graph with 3 clusters of 20 nodes and 1 vertex separators
+Nodes in the Ray cluster:
+[{'NodeID': 'a4b2fd81c3bc38b130bf327c3a2d77784616ebca163dbcdd5ca5678d', 'Alive': True, 'NodeManagerAddress': '10.249.27.226', 'NodeManagerHostname': 'nid004064', 'NodeManagerPort': 33931, 'ObjectManagerPort': 40695, 'ObjectStoreSocketName': '/tmp/ray/session_2022-07-07_01-17-31_121943_38654/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2022-07-07_01-17-31_121943_38654/sockets/raylet', 'MetricsExportPort': 56754, 'alive': True, 'Resources': {'GPU': 4.0, 'node:10.249.27.226': 1.0, 'CPU': 4.0, 'accelerator_type:A100': 1.0, 'object_store_memory': 77574624460.0, 'memory': 181007457076.0}}, {'NodeID': 'd248b7220ef1b29251a42afa62fc96c775a7905992bb99156e735ea1', 'Alive': True, 'NodeManagerAddress': '10.249.27.149', 'NodeManagerHostname': 'nid004061', 'NodeManagerPort': 46223, 'ObjectManagerPort': 43173, 'ObjectStoreSocketName': '/tmp/ray/session_2022-07-07_01-17-31_121943_38654/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2022-07-07_01-17-31_121943_38654/sockets/raylet', 'MetricsExportPort': 53241, 'alive': True, 'Resources': {'GPU': 4.0, 'accelerator_type:A100': 1.0, 'CPU': 5.0, 'node:10.249.27.149': 1.0, 'memory': 170982790554.0, 'object_store_memory': 77564053094.0}}]
+
+cluster resources: {'accelerator_type:A100': 2.0, 'node:10.249.27.226': 1.0, 'memory': 351990247630.0, 'CPU': 9.0, 'GPU': 8.0, 'object_store_memory': 155138677554.0, 'node:10.249.27.149': 1.0}
+
+resources: {'CPU': 9.0, 'GPU': 8.0, 'accelerator_type:A100': 2.0, 'object_store_memory': 155138677554.0, 'memory': 351990247630.0, 'node:10.249.27.226': 1.0, 'node:10.249.27.149': 1.0}
+
+Simulating 22 qubits for largest fragment
+
+
+Initial params: [[0.15 0.2 ]]
+
+Total number of qubits = 62
+
+Depth of full (uncut) circuit = 46
+
+Step 0:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.453238
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:14.592430
+
+Energy at step 0 = 67.93511211531516
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:45.969068
+
+Grad len = 1
+
+Step 1:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.396872
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:08.975551
+
+Energy at step 1 = 54.05725168212694
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+[2m[1m[36m(scheduler +1m51s)[0m Tip: use `ray status` to view detailed cluster status. To disable these messages, set RAY_SCHEDULER_EVENTS=0.
+[2m[1m[33m(scheduler +1m51s)[0m Warning: The following resource request cannot be scheduled right now: {'GPU': 1.0, 'CPU': 1.0}. This is likely due to all cluster resources being claimed by actors. Consider creating fewer actors or adding more nodes to this Ray cluster.
+
+Gradient evaluation time: 0:00:45.667499
+
+Grad len = 1
+
+Step 2:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.401858
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.374249
+
+Energy at step 2 = 40.01933815058125
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:46.267595
+
+Grad len = 1
+
+Step 3:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.399438
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:08.961842
+
+Energy at step 3 = 26.982931144759984
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:45.503859
+
+Grad len = 1
+
+Step 4:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.406307
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.052431
+
+Energy at step 4 = 16.105756520528306
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:45.964020
+
+Grad len = 1
+
+Step 5:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.395206
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:08.938864
+
+Energy at step 5 = 7.721087412916989
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+[2m[1m[33m(scheduler +5m51s)[0m Warning: The following resource request cannot be scheduled right now: {'CPU': 1.0, 'GPU': 1.0}. This is likely due to all cluster resources being claimed by actors. Consider creating fewer actors or adding more nodes to this Ray cluster.
+
+Gradient evaluation time: 0:00:46.169965
+
+Grad len = 1
+
+Step 6:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.404277
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.100448
+
+Energy at step 6 = 1.3489890627543601
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:46.085709
+
+Grad len = 1
+
+Step 7:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.395767
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.044589
+
+Energy at step 7 = -3.7177539836351388
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+[2m[1m[33m(scheduler +7m22s)[0m Warning: The following resource request cannot be scheduled right now: {'GPU': 1.0, 'CPU': 1.0}. This is likely due to all cluster resources being claimed by actors. Consider creating fewer actors or adding more nodes to this Ray cluster.
+
+Gradient evaluation time: 0:00:46.410934
+
+Grad len = 1
+
+Step 8:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.404682
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.293993
+
+Energy at step 8 = -8.045103005564167
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:46.101294
+
+Grad len = 1
+
+Step 9:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.396735
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:08.913479
+
+Energy at step 9 = -11.97892926662927
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:46.231521
+
+Grad len = 1
+
+Step 10:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.400299
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.016906
+
+Energy at step 10 = -15.669425805750327
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+[2m[1m[33m(scheduler +10m22s)[0m Warning: The following resource request cannot be scheduled right now: {'CPU': 1.0, 'GPU': 1.0}. This is likely due to all cluster resources being claimed by actors. Consider creating fewer actors or adding more nodes to this Ray cluster.
+
+Gradient evaluation time: 0:00:45.606490
+
+Grad len = 1
+
+Step 11:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.393876
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.130944
+
+Energy at step 11 = -19.116132361426022
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+[2m[1m[33m(scheduler +11m42s)[0m Warning: The following resource request cannot be scheduled right now: {'CPU': 1.0, 'GPU': 1.0}. This is likely due to all cluster resources being claimed by actors. Consider creating fewer actors or adding more nodes to this Ray cluster.
+
+Gradient evaluation time: 0:00:46.077118
+
+Grad len = 1
+
+Step 12:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.397004
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.277236
+
+Energy at step 12 = -22.22878836362453
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:45.501352
+
+Grad len = 1
+
+Step 13:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.396753
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:08.719004
+
+Energy at step 13 = -24.903071855361155
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:45.889677
+
+Grad len = 1
+
+Step 14:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.398141
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.265232
+
+Energy at step 14 = -27.084138878972936
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:45.552111
+
+Grad len = 1
+
+Step 15:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.392092
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.017856
+
+Energy at step 15 = -28.787592640062527
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+[2m[1m[33m(scheduler +15m22s)[0m Warning: The following resource request cannot be scheduled right now: {'GPU': 1.0, 'CPU': 1.0}. This is likely due to all cluster resources being claimed by actors. Consider creating fewer actors or adding more nodes to this Ray cluster.
+
+Gradient evaluation time: 0:00:45.729774
+
+Grad len = 1
+
+Step 16:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.407078
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.220987
+
+Energy at step 16 = -30.07971385963341
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:45.966931
+
+Grad len = 1
+
+Step 17:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.396640
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.171412
+
+Energy at step 17 = -31.04483724611043
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:45.713293
+
+Grad len = 1
+
+Step 18:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.401050
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.146887
+
+Energy at step 18 = -31.762058504583226
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+[2m[1m[33m(scheduler +18m12s)[0m Warning: The following resource request cannot be scheduled right now: {'CPU': 1.0, 'GPU': 1.0}. This is likely due to all cluster resources being claimed by actors. Consider creating fewer actors or adding more nodes to this Ray cluster.
+
+Gradient evaluation time: 0:00:45.870598
+
+Grad len = 1
+
+Step 19:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.392329
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.044942
+
+Energy at step 19 = -32.295647707441766
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:46.266422
+
+Grad len = 1
+
+Step 20:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.404701
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.095061
+
+Energy at step 20 = -32.69423102424762
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:46.000727
+
+Grad len = 1
+
+Step 21:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.402320
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+[2m[1m[33m(scheduler +20m33s)[0m Warning: The following resource request cannot be scheduled right now: {'CPU': 1.0, 'GPU': 1.0}. This is likely due to all cluster resources being claimed by actors. Consider creating fewer actors or adding more nodes to this Ray cluster.
+
+Circuit cutting time: 0:00:09.303843
+
+Energy at step 21 = -32.993448328714635
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:45.589852
+
+Grad len = 1
+
+Step 22:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.393101
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.220851
+
+Energy at step 22 = -33.219168822134755
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:45.576611
+
+Grad len = 1
+
+Step 23:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.405724
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:08.975449
+
+Energy at step 23 = -33.39019793256979
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:46.046108
+
+Grad len = 1
+
+Step 24:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.389384
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:08.971932
+
+Energy at step 24 = -33.520291028822115
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:45.985773
+
+Grad len = 1
+
+Step 25:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.401076
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+[2m[1m[33m(scheduler +24m23s)[0m Warning: The following resource request cannot be scheduled right now: {'CPU': 1.0, 'GPU': 1.0}. This is likely due to all cluster resources being claimed by actors. Consider creating fewer actors or adding more nodes to this Ray cluster.
+
+Circuit cutting time: 0:00:09.028622
+
+Energy at step 25 = -33.61958386561708
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:45.670235
+
+Grad len = 1
+
+Step 26:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.400955
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.039145
+
+Energy at step 26 = -33.69559715512595
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:46.254227
+
+Grad len = 1
+
+Step 27:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.396176
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:08.991564
+
+Energy at step 27 = -33.75394519940706
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:46.166334
+
+Grad len = 1
+
+Step 28:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.405576
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+[2m[1m[33m(scheduler +27m13s)[0m Warning: The following resource request cannot be scheduled right now: {'GPU': 1.0, 'CPU': 1.0}. This is likely due to all cluster resources being claimed by actors. Consider creating fewer actors or adding more nodes to this Ray cluster.
+
+Circuit cutting time: 0:00:09.118912
+
+Energy at step 28 = -33.79884096148995
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+[2m[1m[33m(scheduler +27m48s)[0m Warning: The following resource request cannot be scheduled right now: {'CPU': 1.0, 'GPU': 1.0}. This is likely due to all cluster resources being claimed by actors. Consider creating fewer actors or adding more nodes to this Ray cluster.
+
+Gradient evaluation time: 0:00:46.167040
+
+Grad len = 1
+
+Step 29:
+
+Number of params = 2
+
+Finding fragments ... 
+
+Fragmentation time: 0:00:00.406809
+
+Total number of fragment tapes = 19
+
+Depth of largest fragment = 38
+
+Depth of deepest tape = 38
+
+Circuit cutting time: 0:00:09.359372
+
+Energy at step 29 = -33.83346008678993
+
+Total number of gradient circuits = 4
+
+Finding gradient fragments ...
+
+Gradient evaluation time: 0:00:45.929094
+
+Grad len = 1
+
+Optimisation time: 0:28:55.245161
+
+Final full parameters [[ 0.11738161 -0.21800311]]
+
+ Final cost = -33.83346008678993
