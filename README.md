@@ -71,7 +71,7 @@ Additionally, if running the notebook `exact_costs.ipynb`, this will require an 
 
 ### Authors
 
-Thomas R. Bromley, Anthony Hayes, Angus Lowe, Matija Medvidovi ́c, Lee J. O’Riordan, Juan Miguel Arrazola, and Nathan Killoran
+Thomas R. Bromley, Anthony Hayes, Angus Lowe, Matija Medvidovi&#263;, Lee J. O’Riordan, Juan Miguel Arrazola, and Nathan Killoran
 
 If you are doing any research using this source code, please cite the following paper:
 
