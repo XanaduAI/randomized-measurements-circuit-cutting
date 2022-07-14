@@ -23,7 +23,7 @@ k = 1  # vertex separators
 layers = 2 
 
 time_stamp = datetime.now().strftime('%Y-%m-%d-%H:%M:%S')
-filename = f"./fd_logs/opt_p={layers}_r={r}_n={n}_k={k}_{time_stamp}"
+filename = f"./data/optimisation/opt_p={layers}_r={r}_n={n}_k={k}_{time_stamp}"
 sys.stdout = open(filename, 'w')
 
 print(f"\nProblem graph with {r} clusters of {n} nodes and {k} vertex separators", flush=True)
