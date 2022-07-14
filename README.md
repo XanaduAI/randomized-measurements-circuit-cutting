@@ -2,6 +2,16 @@
 
 Large scale QAOA simulations using circuit cutting methods executed over multiple GPUs.
 
+<p float="left">
+  <img src="./static/problem_graph.png" width="300" />
+  <img src="./static/time_vs_qubits.png" width="300" />
+</p>
+
+<p float="left">
+  <img src="./static/multi_opt.png" width="300" />
+  <img src="./static/scaling_vs_gpu_nodes.png" width="300" /> 
+</p>
+
 ### Contents
 
 - `optimize.py`: Python script for performing full QAOA distributed over multiple GPUs using circuit cutting methods. This was used to produce the results in the accompanying paper.
