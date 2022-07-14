@@ -36,7 +36,7 @@ G, cluster_nodes, separator_nodes = clustered_chain_graph(n, r, k, q1, q2, seed=
 # distribute computation
 #########################
 import ray
-ray.init(address=os.environ["ip_head"]) # Should be updated according to system config
+ray.init() # Should be updated according to system config
 
 print("Nodes in the Ray cluster:", flush=True)
 print(ray.nodes(), flush=True)

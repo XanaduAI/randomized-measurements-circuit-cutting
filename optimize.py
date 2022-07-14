@@ -36,7 +36,7 @@ seed = 1967
 G, cluster_nodes, separator_nodes = clustered_chain_graph(n, r, k, q1, q2, seed=seed)
 
 import ray
-ray.init(address=os.environ["ip_head"]) # Should be updated according to system config
+ray.init() # Should be updated according to system config
 
 print("Nodes in the Ray cluster:", flush=True)
 print(ray.nodes(), flush=True)
@@ -92,6 +92,11 @@ class RayExecutor(torch.autograd.Function):
 # Immitate NN functionality and register methods to autograd
 ########################################################################
 class CircNetFull(torch.nn.Module):
+    """
+    Executes a QAOA circuit for a given set of parameters and returns a cost 
+    (energy) value.
+    """
+    
     def __init__(self):
         super().__init__()
 
@@ -179,6 +184,9 @@ def execute_grad(params, circuit):
     return np.array(grads).reshape(params.shape)
         
 def grad_descent():
+    """
+    Function to perform gradient gradient descent
+    """
     init_params = np.array([[0.15, 0.2]] * layers, requires_grad=True)
     print(f"\nInitial params: {init_params}")
     circuit = get_qaoa_circuit(G, cluster_nodes, separator_nodes, init_params, layers)
