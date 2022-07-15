@@ -1,0 +1,5 @@
+PennyLane @ git+https://github.com/PennyLaneAI/pennylane@09f02c8c043b0461c2e805a639e1a4e7cd534ed1
+PennyLane-Lightning-GPU==0.23.0
+ray==1.12.0
+networkx==2.8
+torch==1.11.0

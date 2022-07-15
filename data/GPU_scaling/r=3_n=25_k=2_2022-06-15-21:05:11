@@ -1,0 +1,30 @@
+
+Problem graph with 3 clusters of 25 nodes and 2 vertex separators
+Nodes in the Ray cluster:
+[{'NodeID': '8fcf6dc9ac56bc3c04070b44a8f6c15bf3ece6e9538c386a3fd077e6', 'Alive': True, 'NodeManagerAddress': '10.249.23.205', 'NodeManagerHostname': 'nid003565', 'NodeManagerPort': 36507, 'ObjectManagerPort': 33097, 'ObjectStoreSocketName': '/tmp/ray/session_2022-06-15_21-04-28_816988_119215/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2022-06-15_21-04-28_816988_119215/sockets/raylet', 'MetricsExportPort': 59263, 'alive': True, 'Resources': {'GPU': 4.0, 'node:10.249.23.205': 1.0, 'memory': 181815798170.0, 'accelerator_type:A100': 1.0, 'object_store_memory': 77921056358.0, 'CPU': 4.0}}, {'NodeID': '48b6c00cbb38abbac3a00406e7c651658f643b7464ceb9f9a9d617ba', 'Alive': True, 'NodeManagerAddress': '10.249.25.83', 'NodeManagerHostname': 'nid003737', 'NodeManagerPort': 39677, 'ObjectManagerPort': 46237, 'ObjectStoreSocketName': '/tmp/ray/session_2022-06-15_21-04-28_816988_119215/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2022-06-15_21-04-28_816988_119215/sockets/raylet', 'MetricsExportPort': 62580, 'alive': True, 'Resources': {'CPU': 4.0, 'object_store_memory': 77929249996.0, 'memory': 181834916660.0, 'GPU': 4.0, 'node:10.249.25.83': 1.0, 'accelerator_type:A100': 1.0}}, {'NodeID': 'df937b3772937010c5eee4e742dff30d89698eda6f94001629e486e5', 'Alive': True, 'NodeManagerAddress': '10.249.23.23', 'NodeManagerHostname': 'nid003521', 'NodeManagerPort': 38907, 'ObjectManagerPort': 39881, 'ObjectStoreSocketName': '/tmp/ray/session_2022-06-15_21-04-28_816988_119215/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2022-06-15_21-04-28_816988_119215/sockets/raylet', 'MetricsExportPort': 62475, 'alive': True, 'Resources': {'accelerator_type:A100': 1.0, 'object_store_memory': 77864651980.0, 'node:10.249.23.23': 1.0, 'memory': 171684187956.0, 'CPU': 5.0, 'GPU': 4.0}}, {'NodeID': '1d7963754d4531aa0fc86e6e2071efcae3e5a5b2abf622c9a0a92ffc', 'Alive': True, 'NodeManagerAddress': '10.249.23.144', 'NodeManagerHostname': 'nid003537', 'NodeManagerPort': 42541, 'ObjectManagerPort': 40719, 'ObjectStoreSocketName': '/tmp/ray/session_2022-06-15_21-04-28_816988_119215/sockets/plasma_store', 'RayletSocketName': '/tmp/ray/session_2022-06-15_21-04-28_816988_119215/sockets/raylet', 'MetricsExportPort': 48992, 'alive': True, 'Resources': {'GPU': 4.0, 'CPU': 4.0, 'memory': 181285793383.0, 'node:10.249.23.144': 1.0, 'object_store_memory': 77693911449.0, 'accelerator_type:A100': 1.0}}]
+
+cluster resources: {'object_store_memory': 311408869783.0, 'memory': 716620696169.0, 'CPU': 17.0, 'accelerator_type:A100': 4.0, 'GPU': 16.0, 'node:10.249.23.144': 1.0, 'node:10.249.25.83': 1.0, 'node:10.249.23.23': 1.0, 'node:10.249.23.205': 1.0}
+
+resources: {'node:10.249.23.144': 1.0, 'object_store_memory': 311408869783.0, 'GPU': 16.0, 'memory': 716620696169.0, 'CPU': 17.0, 'accelerator_type:A100': 4.0, 'node:10.249.25.83': 1.0, 'node:10.249.23.23': 1.0, 'node:10.249.23.205': 1.0}
+
+Simulating 29 qubits for largest fragment
+
+Total number of qubits = 79
+
+Depth of full (uncut) circuit = 67
+
+resources: {'object_store_memory': 311408869783.0, 'CPU': 17.0, 'accelerator_type:A100': 4.0, 'GPU': 16.0, 'memory': 716620696169.0, 'node:10.249.23.144': 1.0, 'node:10.249.25.83': 1.0, 'node:10.249.23.23': 1.0, 'node:10.249.23.205': 1.0}
+
+Total number of frag tapes = 169
+
+Circuit cutting time: 0:00:07.385088
+
+Depth of largest fragment = 50
+
+Depth of deepest tape = 50
+
+Ray run time: 0:03:02.223466
+
+Postprocessing time: 0:00:00.209231
+
+Simulated cost value = 0.0009834503685034331
