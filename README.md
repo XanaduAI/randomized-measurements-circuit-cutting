@@ -14,6 +14,11 @@
 
 - Benchmarking of the randomized circuit cutting method against [Peng et al.](https://arxiv.org/abs/1904.00102)
 
+<p float="left">
+  <img src="./static/shots_vs_cost_left.png" width="300" />
+  <img src="./static/shots_vs_cost_right.png" width="300" /> 
+</p>
+
 ### Contents
 
 - `optimize.py`: Python script for performing full QAOA distributed over multiple GPUs using circuit cutting methods. This was used to produce the results in the accompanying paper.
@@ -61,7 +66,7 @@ You can also visit [pennylane.xanadu.ai](https://pennylane.xanadu.ai) to run not
 
 ### Requirements
 
-All software requirements for running the provided code can be installed by running the following command from the top level directory: 
+All software requirements for running the provided python scripts can be installed by running the following command from the top level directory: 
 
 ```
 $ pip install -r requirements.txt
