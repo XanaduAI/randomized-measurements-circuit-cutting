@@ -22,7 +22,7 @@ Large scale QAOA simulations using circuit cutting methods executed over multipl
 
 - `utils.py` Python script containing utility functions for constructing problem graphs to be input to QAOA for Max-Cut and building the corresponding quantum circuit. 
 
-- `data\` Folder containing example output logs generated from above scripts. This data was used to generate the plots in the accompanying paper. 
+- `data/` Folder containing example output logs generated from above scripts. This data was used to generate the plots in the accompanying paper. 
 
 ### Usage
 
@@ -44,14 +44,16 @@ To visualize the content of the Jupyter notebooks without running the code there
 
 To open and run a local copy of a notebook one should apply the following steps:
 
-1. missing, install JupyterLab.
-2.  the command:
+1. If missing, install JupyterLab.
+2.  Run the command:
 
 ```
 $ jupyter notebook
 ```
 
 3. Navigate to the local notebook file and open it.
+
+You can also visit [pennylane.xanadu.ai](https://pennylane.xanadu.ai) to run notebooks over Xanadu Cloud.
 
 ### Requirements
 
