@@ -1,6 +1,6 @@
 # Fast quantum circuit cutting with randomized measurements
 
-Large scale QAOA simulations using circuit cutting methods executed over multiple GPUs.
+- Large scale QAOA simulations using circuit cutting methods executed over multiple GPUs.
 
 <p float="left">
   <img src="./static/problem_graph.png" width="300" />
@@ -12,21 +12,25 @@ Large scale QAOA simulations using circuit cutting methods executed over multipl
   <img src="./static/scaling_vs_gpu_nodes.png" width="300" /> 
 </p>
 
+- Benchmarking of the randomized circuit cutting method against [Peng et al.](https://arxiv.org/abs/1904.00102)
+
 ### Contents
 
 - `optimize.py`: Python script for performing full QAOA distributed over multiple GPUs using circuit cutting methods. This was used to produce the results in the accompanying paper.
 
 - `forward_pass.py`: Python script for executing forward passes of QAOA circuits (no gradients/optimization) distributed over multiple GPUs using circuit cutting methods.
 
-- `exact_costs.ipynb` Jupyter notebook for analysis of exact cost values of single layer QAOA circuits. This uses results from this [paper](https://arxiv.org/pdf/2009.01760.pdf) and the accompanying [repository](https://github.com/Matematija/QubitRBM)
+- `exact_costs.ipynb`: Jupyter notebook for analysis of exact cost values of single layer QAOA circuits. This uses results from this [paper](https://arxiv.org/pdf/2009.01760.pdf) and the accompanying [repository](https://github.com/Matematija/QubitRBM)
 
-- `utils.py` Python script containing utility functions for constructing problem graphs to be input to QAOA for Max-Cut and building the corresponding quantum circuit. 
+- `utils.py`: Python script containing utility functions for constructing problem graphs to be input to QAOA for Max-Cut and building the corresponding quantum circuit. 
 
-- `data/` Folder containing example output logs generated from above scripts. This data was used to generate the plots in the accompanying paper. 
+- `data/`: Folder containing example output logs generated from above scripts. This data was used to generate the plots in the accompanying paper.
+
+- `randomized/`: Folder containing python scripts for randomized cuts based on mixed-state simulators in PennyLane. These were used to generate benchmarking results against against [Peng et al.](https://arxiv.org/abs/1904.00102)
 
 ### Usage
 
-The python scripts can be executed by running the following command from the top level directory:
+The python scripts can be executed by running the following command from the corresponding directory:
 
 ```
 $ python <file_name.py>
@@ -65,7 +69,7 @@ $ pip install -r requirements.txt
 
 This requires [`pip`](https://pip.pypa.io/en/stable/installation/)  to be installed on your machine. 
 
-We also recommend the use of a virtual environment (e.g [venv](https://docs.python.org/3/library/venv.html)) when installing these requirements. 
+We also recommend the use of a virtual environment (e.g [`venv`](https://docs.python.org/3/library/venv.html)) when installing these requirements. 
 
 Note that the PennyLane dependency is installed from a development branch containing the necessary updates to perform efficient measurements of the cost Hamiltonains use in the QAOA circuit simulations. 
 
