@@ -1,5 +1,12 @@
 # Fast quantum circuit cutting with randomized measurements
 
+- Benchmarking of the randomized circuit cutting method against [Peng et al.](https://arxiv.org/abs/1904.00102)
+
+<p float="left">
+  <img src="./static/shots_vs_cost_left.png" width="300" />
+  <img src="./static/shots_vs_cost_right.png" width="300" /> 
+</p>
+
 - Large scale QAOA simulations using circuit cutting methods executed over multiple GPUs.
 
 <p float="left">
@@ -10,13 +17,6 @@
 <p float="left">
   <img src="./static/multi_opt.png" width="300" />
   <img src="./static/scaling_vs_gpu_nodes.png" width="300" /> 
-</p>
-
-- Benchmarking of the randomized circuit cutting method against [Peng et al.](https://arxiv.org/abs/1904.00102)
-
-<p float="left">
-  <img src="./static/shots_vs_cost_left.png" width="300" />
-  <img src="./static/shots_vs_cost_right.png" width="300" /> 
 </p>
 
 ### Contents
@@ -76,13 +76,13 @@ This requires [`pip`](https://pip.pypa.io/en/stable/installation/)  to be instal
 
 We also recommend the use of a virtual environment (e.g [`venv`](https://docs.python.org/3/library/venv.html)) when installing these requirements. 
 
-Note that the PennyLane dependency is installed from a development branch containing the necessary updates to perform efficient measurements of the cost Hamiltonains use in the QAOA circuit simulations. 
+Note that the PennyLane dependency is installed from a development branch containing the necessary updates to perform efficient measurements of the cost Hamiltonians used in the QAOA circuit simulations. 
 
 Additionally, if running the notebook `exact_costs.ipynb`, this will require an additional installation of the code available in this [repository](https://github.com/Matematija/QubitRBM) that is not included in the requirements.
 
 ### Authors
 
-Thomas R. Bromley, Anthony Hayes, Angus Lowe, Matija Medvidovi&#263;, Lee J. O’Riordan, Juan Miguel Arrazola, and Nathan Killoran
+Angus Lowe, Matija Medvidovi&#263;, Anthony Hayes, Lee J. O’Riordan, Thomas R. Bromley, Juan Miguel Arrazola, and Nathan Killoran
 
 If you are doing any research using this source code, please cite the following paper:
 
