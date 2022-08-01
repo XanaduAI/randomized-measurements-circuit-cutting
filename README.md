@@ -86,7 +86,7 @@ Angus Lowe, Matija Medvidovi&#263;, Anthony Hayes, Lee J. O’Riordan, Thomas R.
 
 If you are doing any research using this source code, please cite the following paper:
 
-[arXiv link here]
+> Angus Lowe, Matija Medvidovi&#263;, Anthony Hayes, Lee J. O’Riordan, Thomas R. Bromley, Juan Miguel Arrazola, and Nathan Killoran. _Fast quantum circuit cutting with randomized measurements_. [arXiv:2207.14734](https://arxiv.org/abs/2207.14734) (2022).
 
 ### License
 
